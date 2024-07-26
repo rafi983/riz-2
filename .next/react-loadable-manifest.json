@@ -5,10 +5,10 @@
       "static/chunks/src_components_PortfolioIsotope_js.js"
     ]
   },
-  "work-single-4.jsx -> ../src/components/WorkSingleISotope4": {
-    "id": "work-single-4.jsx -> ../src/components/WorkSingleISotope4",
+  "work-single-6.jsx -> ../src/components/WorkSingleISotope6": {
+    "id": "work-single-6.jsx -> ../src/components/WorkSingleISotope6",
     "files": [
-      "static/chunks/src_components_WorkSingleISotope4_js.js"
+      "static/chunks/src_components_WorkSingleISotope6_js.js"
     ]
   }
 }

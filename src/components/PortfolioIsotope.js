@@ -220,7 +220,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-5">
                     <a>
                       <img
                         decoding="async"
@@ -235,7 +235,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Branding, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-5">
                     <a>Architecture</a>
                   </Link>
                 </h5>
@@ -245,7 +245,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     of the house.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-5">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -264,7 +264,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-6">
                     <a>
                       <img
                         decoding="async"
@@ -279,7 +279,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, UI UX Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-6">
                     <a>Hulu</a>
                   </Link>
                 </h5>
@@ -289,7 +289,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     design of hulu.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-6">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
