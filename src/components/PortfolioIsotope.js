@@ -93,7 +93,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/work4.jpeg"
+                        src="https://riz82.netlify.app/assets/comfysloth-fd63f7c8.png"
                         alt="Zorro"
                       />
                       <span className="overlay" />
@@ -137,7 +137,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/work2.jpeg"
+                        src="https://riz82.netlify.app/assets/cars-a956445a.png"
                         alt="Gooir"
                       />
                       <span className="overlay" />
@@ -181,7 +181,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/work7.jpg"
+                        src="https://riz82.netlify.app/assets/gitinspector-c804ef30.png"
                         alt="Explore"
                       />
                       <span className="overlay" />
@@ -225,7 +225,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/work1.jpeg"
+                        src="https://riz82.netlify.app/assets/architectweb-75e8d28d.png"
                         alt="Mozar"
                       />
                       <span className="overlay" />
@@ -269,7 +269,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/single8.jpg"
+                        src="https://riz82.netlify.app/assets/hulu-dcefd980.png"
                         alt="Stay Fit"
                       />
                       <span className="overlay" />
@@ -313,7 +313,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/single6.jpg"
+                        src="https://riz82.netlify.app/assets/teastation-7216fa54.png"
                         alt="Kana"
                       />
                       <span className="overlay" />

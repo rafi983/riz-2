@@ -27,7 +27,6 @@ const Works = () => {
               data-animate="active"
             >
               <span>
-                {" "}
                 my <b>Cases</b>
               </span>
             </div>

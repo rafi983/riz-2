@@ -1,5 +1,7 @@
 import dynamic from "next/dynamic";
+import Resume from "../src/components/Resume";
 import Layout from "../src/layouts/Layout";
+
 const PortfolioIsotope = dynamic(
   () => import("../src/components/PortfolioIsotope"),
   {
@@ -84,7 +86,7 @@ const Index = () => {
               >
                 <img
                   decoding="async"
-                  src="assets/images/profile2.png"
+                  src="https://riz82.netlify.app/assets/myImage-27584973.jpg"
                   alt="<b>Zoé</b> Miller"
                 />
                 <span className="circle circle-1" />
@@ -334,6 +336,8 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Section - Resume */}
+      <Resume />
       {/* Section - Contacts */}
       <section className="lui-section lui-gradient-bottom" id="contact-section">
         {/* Heading */}
@@ -353,7 +357,6 @@ const Index = () => {
                 data-animate="active"
               >
                 <span>
-                  {" "}
                   Let’s <b>Talk About Ideas</b>
                 </span>
               </div>
