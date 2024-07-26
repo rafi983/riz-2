@@ -380,7 +380,7 @@ const Index = () => {
                       <span> Address </span>
                     </div>
                     <div className="lui-text">
-                      <span> North Tower, Toronto, Canada </span>
+                      <span> Mymensingh, Bangladesh </span>
                     </div>
                   </div>
                   <div
@@ -391,10 +391,10 @@ const Index = () => {
                       <i aria-hidden="true" className="far fa-user" />
                     </div>
                     <div className="title">
-                      <span> Freelance </span>
+                      <span> Freelancer </span>
                     </div>
                     <div className="lui-text">
-                      <span> Available Right Now </span>
+                      <span> Available here </span>
                     </div>
                   </div>
                   <div
@@ -408,7 +408,7 @@ const Index = () => {
                       <span> Email </span>
                     </div>
                     <div className="lui-text">
-                      <span> zoe.miller@mydomain.com </span>
+                      <span> rafiirfan211@gmail.com </span>
                     </div>
                   </div>
                   <div
@@ -422,7 +422,7 @@ const Index = () => {
                       <span> Phone </span>
                     </div>
                     <div className="lui-text">
-                      <span> +1 900 - 900 - 9000 </span>
+                      <span> 101010101010 </span>
                     </div>
                   </div>
                 </div>

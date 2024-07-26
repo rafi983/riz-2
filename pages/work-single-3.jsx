@@ -105,7 +105,7 @@ const WorkSingle = () => {
       <div className="section section-inner m-page-navigation">
         <div className="container">
           <div className="h-titles h-navs">
-            <Link legacyBehavior href="/work-single-3">
+            <Link legacyBehavior href="/work-single-4">
               <a>
                 <span
                   className="nav-arrow scrolla-element-anim-1 scroll-animate"
@@ -118,7 +118,7 @@ const WorkSingle = () => {
                   data-splitting="chars"
                   data-animate="active"
                 >
-                  <span>Gooir</span>
+                  <span>Git Inspector</span>
                 </span>
               </a>
             </Link>

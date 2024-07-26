@@ -264,7 +264,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-6">
                     <a>
                       <img
                         decoding="async"
@@ -279,7 +279,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, UI UX Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-6">
                     <a>Hulu</a>
                   </Link>
                 </h5>
@@ -289,7 +289,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     design of hulu.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-6">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -308,7 +308,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-7">
                     <a>
                       <img
                         decoding="async"
@@ -323,14 +323,14 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-7">
                     <a>Tea station</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>Tea station which represents a tea website.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-7">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -350,7 +350,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-8">
                     <a>
                       <img
                         decoding="async"
@@ -365,14 +365,14 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-8">
                     <a>3d cube</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>It's a 3d cube photo project.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-8">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -392,7 +392,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-9">
                     <a>
                       <img
                         decoding="async"
@@ -407,14 +407,14 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-9">
                     <a>PhotoX</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>PhotoX is where photoLovers and photoTakers live.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-9">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -434,7 +434,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-10">
                     <a>
                       <img
                         decoding="async"
@@ -449,7 +449,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-10">
                     <a>Tracalorie</a>
                   </Link>
                 </h5>
@@ -458,7 +458,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     Here user can count their calorie loss, gain and many more,
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-10">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -478,7 +478,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-11">
                     <a>
                       <img
                         decoding="async"
@@ -493,7 +493,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-11">
                     <a>Swipe Pay</a>
                   </Link>
                 </h5>
@@ -503,7 +503,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     payment system.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-11">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -523,7 +523,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-12">
                     <a>
                       <img
                         decoding="async"
@@ -538,7 +538,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-12">
                     <a>Leno</a>
                   </Link>
                 </h5>
@@ -547,7 +547,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     Lino provides productivity to the developers and creators.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-12">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -567,7 +567,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-13">
                     <a>
                       <img
                         decoding="async"
@@ -582,7 +582,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-13">
                     <a>Pizza</a>
                   </Link>
                 </h5>
@@ -592,7 +592,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     see their order after login.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-13">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -612,7 +612,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-14">
                     <a>
                       <img
                         decoding="async"
@@ -627,14 +627,14 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-14">
                     <a>AppleMac</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>AppleMac is the website of mac products.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-14">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -654,7 +654,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-15">
                     <a>
                       <img
                         decoding="async"
@@ -669,7 +669,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-15">
                     <a>Git users</a>
                   </Link>
                 </h5>
@@ -679,7 +679,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     every github user's details.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-15">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -699,7 +699,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-16">
                     <a>
                       <img
                         decoding="async"
@@ -714,14 +714,14 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-16">
                     <a>Backroads</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>This is a website of adventourous thing, touring.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-16">
                   <a className="lnk">See project</a>
                 </Link>
               </div>

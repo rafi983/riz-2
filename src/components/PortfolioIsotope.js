@@ -308,7 +308,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-7">
                     <a>
                       <img
                         decoding="async"
@@ -323,14 +323,14 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-7">
                     <a>Tea station</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>Tea station which represents a tea website.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-7">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
