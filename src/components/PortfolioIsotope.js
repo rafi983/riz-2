@@ -89,12 +89,12 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-2">
                     <a>
                       <img
                         decoding="async"
                         src="https://riz82.netlify.app/assets/comfysloth-fd63f7c8.png"
-                        alt="Zorro"
+                        alt="comfy"
                       />
                       <span className="overlay" />
                     </a>
@@ -104,17 +104,16 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Branding, Photography </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Zorro</a>
+                  <Link legacyBehavior href="/work-single-2">
+                    <a>Comfy Sloth</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    An ecommerce site where users can purchase their products.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-2">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -133,12 +132,12 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-3">
                     <a>
                       <img
                         decoding="async"
                         src="https://riz82.netlify.app/assets/cars-a956445a.png"
-                        alt="Gooir"
+                        alt="cars"
                       />
                       <span className="overlay" />
                     </a>
@@ -148,17 +147,17 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Branding, UI UX Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Gooir</a>
+                  <Link legacyBehavior href="/work-single-3">
+                    <a>Classic Cars</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    A website of various different types of cars including new
+                    model with vintage cars.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-3">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -177,7 +176,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/work-single-4">
                     <a>
                       <img
                         decoding="async"
@@ -192,17 +191,17 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, UI UX Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Explore</a>
+                  <Link legacyBehavior href="/work-single-4">
+                    <a>Git inspector</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    User can search all the available github users and their
+                    details by entering git username.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/work-single-4">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -226,7 +225,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                       <img
                         decoding="async"
                         src="https://riz82.netlify.app/assets/architectweb-75e8d28d.png"
-                        alt="Mozar"
+                        alt="archi"
                       />
                       <span className="overlay" />
                     </a>
@@ -237,13 +236,13 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 <span className="category"> Branding, Photography </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single">
-                    <a>Mozar</a>
+                    <a>Architecture</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    Architectural website presents you a various interor designs
+                    of the house.
                   </p>
                 </div>
                 <Link legacyBehavior href="/work-single">
@@ -270,7 +269,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                       <img
                         decoding="async"
                         src="https://riz82.netlify.app/assets/hulu-dcefd980.png"
-                        alt="Stay Fit"
+                        alt="hulu"
                       />
                       <span className="overlay" />
                     </a>
@@ -281,13 +280,13 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 <span className="category"> Development, UI UX Design </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single">
-                    <a>Stay Fit</a>
+                    <a>Hulu</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    This is non-functional and nothing but a carbon copy ui
+                    design of hulu.
                   </p>
                 </div>
                 <Link legacyBehavior href="/work-single">
@@ -314,7 +313,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                       <img
                         decoding="async"
                         src="https://riz82.netlify.app/assets/teastation-7216fa54.png"
-                        alt="Kana"
+                        alt="tea"
                       />
                       <span className="overlay" />
                     </a>
@@ -325,14 +324,11 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 <span className="category"> Development, Photography </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single">
-                    <a>Kana</a>
+                    <a>Tea station</a>
                   </Link>
                 </h5>
                 <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
+                  <p>Tea station which represents a tea website.</p>
                 </div>
                 <Link legacyBehavior href="/work-single">
                   <a className="lnk">See project</a>

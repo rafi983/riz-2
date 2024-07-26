@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import Layout from "../src/layouts/Layout";
-const PortfolioIsotope = dynamic(
-  () => import("../src/components/PortfolioIsotope"),
+const PortfolioIsotopeList = dynamic(
+  () => import("../src/components/PortfolioIsotopeList"),
   {
     ssr: false,
   }
@@ -38,7 +38,7 @@ const Works = () => {
         {/* Works */}
         <div className="v-line v-line-right v-line-top">
           <div className="container">
-            <PortfolioIsotope noViewMore />
+            <PortfolioIsotopeList noViewMore />
             <div className="lui-bgtitle">
               <span> Portfolio </span>
             </div>
