@@ -195,15 +195,7 @@ const Index = () => {
                     <h6 className="name">
                       <span> Python </span>
                     </h6>
-                    <div className="text">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </p>
-                      </div>
-                    </div>
+
                     <div className="dots">
                       <div className="dot" style={{ width: "75%" }}>
                         <span />
@@ -226,15 +218,7 @@ const Index = () => {
                     <h6 className="name">
                       <span> JavaScript </span>
                     </h6>
-                    <div className="text">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </p>
-                      </div>
-                    </div>
+
                     <div className="dots">
                       <div className="dot" style={{ width: "75%" }}>
                         <span />
@@ -253,15 +237,7 @@ const Index = () => {
                     <h6 className="name">
                       <span> React </span>
                     </h6>
-                    <div className="text">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </p>
-                      </div>
-                    </div>
+
                     <div className="dots">
                       <div className="dot" style={{ width: "70%" }}>
                         <span />
@@ -284,15 +260,7 @@ const Index = () => {
                     <h6 className="name">
                       <span> WordPress </span>
                     </h6>
-                    <div className="text">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </p>
-                      </div>
-                    </div>
+
                     <div className="dots">
                       <div className="dot" style={{ width: "90%" }}>
                         <span />
@@ -311,15 +279,7 @@ const Index = () => {
                     <h6 className="name">
                       <span> Adobe XD </span>
                     </h6>
-                    <div className="text">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </p>
-                      </div>
-                    </div>
+
                     <div className="dots">
                       <div className="dot" style={{ width: "80%" }}>
                         <span />
