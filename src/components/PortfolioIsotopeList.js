@@ -1,86 +1,9 @@
-import Isotope from "isotope-layout";
 import Link from "next/link";
 import { Fragment, useEffect, useRef, useState } from "react";
 const PortfolioIsotopeList = ({ noViewMore }) => {
-  // Isotope
-  const isotope = useRef();
-  const [filterKey, setFilterKey] = useState("*");
-  useEffect(() => {
-    isotope.current = new Isotope(".works-items", {
-      itemSelector: ".works-col",
-      //    layoutMode: "fitRows",
-      percentPosition: true,
-      masonry: {
-        columnWidth: ".works-col",
-      },
-      animationOptions: {
-        duration: 750,
-        easing: "linear",
-        queue: false,
-      },
-    });
-    return () => isotope.current.destroy();
-  });
-  useEffect(() => {
-    if (isotope.current) {
-      filterKey === "*"
-        ? isotope.current.arrange({ filter: `*` })
-        : isotope.current.arrange({ filter: `.${filterKey}` });
-    }
-  }, [filterKey]);
-  const handleFilterKeyChange = (key) => () => {
-    setFilterKey(key);
-  };
-  const activeBtn = (value) => (value === filterKey ? "active" : "");
+
   return (
     <Fragment>
-      <div className="works-box">
-        <div
-          className="filter-links scrolla-element-anim-1 scroll-animate"
-          data-animate="active"
-        >
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn("*")}`}
-            onClick={handleFilterKeyChange("*")}
-            data-href=".works-col"
-          >
-            All
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-ui-ux-design"
-            )}`}
-            onClick={handleFilterKeyChange("sorting-ui-ux-design")}
-            data-href=".sorting-ui-ux-design"
-          >
-            UI UX Design
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn("sorting-photo")}`}
-            onClick={handleFilterKeyChange("sorting-photo")}
-            data-href=".sorting-photo"
-          >
-            Photography
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-development"
-            )}`}
-            onClick={handleFilterKeyChange("sorting-development")}
-            data-href=".sorting-development"
-          >
-            Development
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-branding"
-            )}`}
-            onClick={handleFilterKeyChange("sorting-branding")}
-            data-href=".sorting-branding"
-          >
-            Branding
-          </a>
-        </div>
         <div className="works-items works-masonry-items row">
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
             <div
@@ -102,7 +25,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, Photography </span>
+                <span className="category"> React Js</span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-2">
                     <a>Comfy Sloth</a>
@@ -145,7 +68,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, UI UX Design </span>
+                <span className="category"> html / css</span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-3">
                     <a>Classic Cars</a>
@@ -189,7 +112,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, UI UX Design </span>
+                <span className="category"> html / css / js </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-4">
                     <a>Git inspector</a>
@@ -233,7 +156,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, Photography </span>
+                <span className="category"> html / css</span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-5">
                     <a>Architecture</a>
@@ -277,7 +200,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, UI UX Design </span>
+                <span className="category"> html / css </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-6">
                     <a>Hulu</a>
@@ -321,7 +244,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> html / css </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-7">
                     <a>Tea station</a>
@@ -363,7 +286,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> js </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-8">
                     <a>3d cube</a>
@@ -405,7 +328,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> html / css / js </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-9">
                     <a>PhotoX</a>
@@ -447,7 +370,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> css / js </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-10">
                     <a>Tracalorie</a>
@@ -491,7 +414,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> html / css </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-11">
                     <a>Swipe Pay</a>
@@ -536,7 +459,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> html / css </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-12">
                     <a>Leno</a>
@@ -580,7 +503,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> react js / redux </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-13">
                     <a>Pizza</a>
@@ -625,7 +548,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> js </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-14">
                     <a>AppleMac</a>
@@ -667,7 +590,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> react js </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-15">
                     <a>Git users</a>
@@ -712,7 +635,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> html / css </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single-16">
                     <a>Backroads</a>
@@ -734,7 +657,6 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             </div>
           </div>
         </div>
-      </div>
     </Fragment>
   );
 };
