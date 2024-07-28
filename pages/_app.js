@@ -10,6 +10,7 @@ const App = ({ Component, pageProps }) => {
     }, 500);
   }, []);
 
+
   return (
     <Fragment>
       <Head>

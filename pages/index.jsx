@@ -422,7 +422,7 @@ const Index = () => {
                       <span> Phone </span>
                     </div>
                     <div className="lui-text">
-                      <span> 101010101010 </span>
+                      <span> Call me later. </span>
                     </div>
                   </div>
                 </div>

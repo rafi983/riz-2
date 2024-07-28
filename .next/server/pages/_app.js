@@ -1,195 +1,64 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 9746:
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: external "next/head"
-const head_namespaceObject = require("next/head");
-var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-;// CONCATENATED MODULE: ./src/layouts/PreLoader.js
-
-
-const PreLoader = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx(external_react_.Fragment, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: "preloader",
-            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "centrize full-width",
-                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "vertical-center",
-                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "spinner-logo",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                src: "assets/images/logo2.png",
-                                alt: "Luique - Personal Portfolio HTML Template"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "spinner-dot"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "spinner spinner-line"
-                            })
-                        ]
-                    })
-                })
-            })
-        })
-    });
-};
-/* harmony default export */ const layouts_PreLoader = (PreLoader);
-
-// EXTERNAL MODULE: ./styles/globals.css
-var globals = __webpack_require__(6764);
-;// CONCATENATED MODULE: ./pages/_app.js
-
-
-
-
-
-const App = ({ Component , pageProps  })=>{
-    const [loader, setLoader] = (0,external_react_.useState)(true);
-    (0,external_react_.useEffect)(()=>{
-        setTimeout(()=>{
-            setLoader(false);
-        }, 500);
-    }, []);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                        children: "Luique - Personal Portfolio React NextJS Template"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        httpEquiv: "Content-Type",
-                        content: "text/html; charset=utf-8"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        httpEquiv: "X-UA-Compatible",
-                        content: "IE=edge"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        name: "viewport",
-                        content: "width=device-width, initial-scale=1"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        name: "HandheldFriendly",
-                        content: "true"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        name: "author",
-                        content: "bslthemes"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "https://fonts.googleapis.com/css?family=Jost%3A0%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900%7CCaveat%3A400%3B500%3B600%3B700&display=swap",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/vendors/bootstrap.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/fonts/font-awesome/css/font-awesome.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/vendors/magnific-popup.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/vendors/splitting.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/vendors/swiper.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/vendors/animate.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/style.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/dark.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "shortcut icon",
-                        href: "favicon.ico",
-                        type: "image/x-icon"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "icon",
-                        href: "favicon.ico",
-                        type: "image/x-icon"
-                    })
-                ]
-            }),
-            loader && /*#__PURE__*/ jsx_runtime_.jsx(layouts_PreLoader, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                ...pageProps
-            })
-        ]
-    });
-};
-/* harmony default export */ const _app = (App);
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _src_layouts_PreLoader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/layouts/PreLoader */ \"./src/layouts/PreLoader.js\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nconst App = ({ Component , pageProps  })=>{\n    const [loader, setLoader] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(true);\n    (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{\n        setTimeout(()=>{\n            setLoader(false);\n        }, 500);\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_2__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"Luique - Personal Portfolio React NextJS Template\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 17,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        httpEquiv: \"Content-Type\",\n                        content: \"text/html; charset=utf-8\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 18,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        httpEquiv: \"X-UA-Compatible\",\n                        content: \"IE=edge\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 19,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"viewport\",\n                        content: \"width=device-width, initial-scale=1\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 20,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"HandheldFriendly\",\n                        content: \"true\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 21,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"author\",\n                        content: \"bslthemes\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 22,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"https://fonts.googleapis.com/css?family=Jost%3A0%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900%7CCaveat%3A400%3B500%3B600%3B700&display=swap\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 24,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 30,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/bootstrap.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 37,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/fonts/font-awesome/css/font-awesome.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 43,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/magnific-popup.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 49,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/splitting.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 55,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/swiper.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 61,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/animate.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 67,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/style.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 73,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/dark.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 79,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"shortcut icon\",\n                        href: \"favicon.ico\",\n                        type: \"image/x-icon\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 86,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"icon\",\n                        href: \"favicon.ico\",\n                        type: \"image/x-icon\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                        lineNumber: 87,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                lineNumber: 16,\n                columnNumber: 7\n            }, undefined),\n            loader && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_layouts_PreLoader__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                lineNumber: 89,\n                columnNumber: 18\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n                lineNumber: 90,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\pages\\\\_app.js\",\n        lineNumber: 15,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUE2QjtBQUN5QjtBQUNMO0FBQ2xCO0FBQy9CLE1BQU1LLE1BQU0sQ0FBQyxFQUFFQyxVQUFTLEVBQUVDLFVBQVMsRUFBRSxHQUFLO0lBQ3hDLE1BQU0sQ0FBQ0MsUUFBUUMsVUFBVSxHQUFHTiwrQ0FBUUEsQ0FBQyxJQUFJO0lBQ3pDRCxnREFBU0EsQ0FBQyxJQUFNO1FBQ2RRLFdBQVcsSUFBTTtZQUNmRCxVQUFVLEtBQUs7UUFDakIsR0FBRztJQUNMLEdBQUcsRUFBRTtJQUdMLHFCQUNFLDhEQUFDUiwyQ0FBUUE7OzBCQUNQLDhEQUFDRCxrREFBSUE7O2tDQUNILDhEQUFDVztrQ0FBTTs7Ozs7O2tDQUNQLDhEQUFDQzt3QkFBS0MsV0FBVTt3QkFBZUMsU0FBUTs7Ozs7O2tDQUN2Qyw4REFBQ0Y7d0JBQUtDLFdBQVU7d0JBQWtCQyxTQUFROzs7Ozs7a0NBQzFDLDhEQUFDRjt3QkFBS0csTUFBSzt3QkFBV0QsU0FBUTs7Ozs7O2tDQUM5Qiw4REFBQ0Y7d0JBQUtHLE1BQUs7d0JBQW1CRCxTQUFROzs7Ozs7a0NBQ3RDLDhEQUFDRjt3QkFBS0csTUFBSzt3QkFBU0QsU0FBUTs7Ozs7O2tDQUU1Qiw4REFBQ0U7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7d0JBQ0xDLE1BQUs7d0JBQ0xDLE9BQU07Ozs7OztrQ0FFUiw4REFBQ0o7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7d0JBQ0xDLE1BQUs7d0JBQ0xDLE9BQU07Ozs7OztrQ0FHUiw4REFBQ0o7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7d0JBQ0xDLE1BQUs7d0JBQ0xDLE9BQU07Ozs7OztrQ0FFUiw4REFBQ0o7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7d0JBQ0xDLE1BQUs7d0JBQ0xDLE9BQU07Ozs7OztrQ0FFUiw4REFBQ0o7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7d0JBQ0xDLE1BQUs7d0JBQ0xDLE9BQU07Ozs7OztrQ0FFUiw4REFBQ0o7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7d0JBQ0xDLE1BQUs7d0JBQ0xDLE9BQU07Ozs7OztrQ0FFUiw4REFBQ0o7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7d0JBQ0xDLE1BQUs7d0JBQ0xDLE9BQU07Ozs7OztrQ0FFUiw4REFBQ0o7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7d0JBQ0xDLE1BQUs7d0JBQ0xDLE9BQU07Ozs7OztrQ0FFUiw4REFBQ0o7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7d0JBQ0xDLE1BQUs7d0JBQ0xDLE9BQU07Ozs7OztrQ0FFUiw4REFBQ0o7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7d0JBQ0xDLE1BQUs7d0JBQ0xDLE9BQU07Ozs7OztrQ0FHUiw4REFBQ0o7d0JBQUtDLEtBQUk7d0JBQWdCQyxNQUFLO3dCQUFjQyxNQUFLOzs7Ozs7a0NBQ2xELDhEQUFDSDt3QkFBS0MsS0FBSTt3QkFBT0MsTUFBSzt3QkFBY0MsTUFBSzs7Ozs7Ozs7Ozs7O1lBRTFDWCx3QkFBVSw4REFBQ0osOERBQVNBOzs7OzswQkFDckIsOERBQUNFO2dCQUFXLEdBQUdDLFNBQVM7Ozs7Ozs7Ozs7OztBQUc5QjtBQUNBLGlFQUFlRixHQUFHQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbHVpcXVlLXJlYWN0Ly4vcGFnZXMvX2FwcC5qcz9lMGFkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcbmltcG9ydCB7IEZyYWdtZW50LCB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgUHJlTG9hZGVyIGZyb20gXCIuLi9zcmMvbGF5b3V0cy9QcmVMb2FkZXJcIjtcbmltcG9ydCBcIi4uL3N0eWxlcy9nbG9iYWxzLmNzc1wiO1xuY29uc3QgQXBwID0gKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfSkgPT4ge1xuICBjb25zdCBbbG9hZGVyLCBzZXRMb2FkZXJdID0gdXNlU3RhdGUodHJ1ZSk7XG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgc2V0VGltZW91dCgoKSA9PiB7XG4gICAgICBzZXRMb2FkZXIoZmFsc2UpO1xuICAgIH0sIDUwMCk7XG4gIH0sIFtdKTtcblxuXG4gIHJldHVybiAoXG4gICAgPEZyYWdtZW50PlxuICAgICAgPEhlYWQ+XG4gICAgICAgIDx0aXRsZT5MdWlxdWUgLSBQZXJzb25hbCBQb3J0Zm9saW8gUmVhY3QgTmV4dEpTIFRlbXBsYXRlPC90aXRsZT5cbiAgICAgICAgPG1ldGEgaHR0cEVxdWl2PVwiQ29udGVudC1UeXBlXCIgY29udGVudD1cInRleHQvaHRtbDsgY2hhcnNldD11dGYtOFwiIC8+XG4gICAgICAgIDxtZXRhIGh0dHBFcXVpdj1cIlgtVUEtQ29tcGF0aWJsZVwiIGNvbnRlbnQ9XCJJRT1lZGdlXCIgLz5cbiAgICAgICAgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xXCIgLz5cbiAgICAgICAgPG1ldGEgbmFtZT1cIkhhbmRoZWxkRnJpZW5kbHlcIiBjb250ZW50PVwidHJ1ZVwiIC8+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJhdXRob3JcIiBjb250ZW50PVwiYnNsdGhlbWVzXCIgLz5cbiAgICAgICAgey8qIEZvbnRzICovfVxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9Sm9zdCUzQTAlMkMxMDAlM0IwJTJDMjAwJTNCMCUyQzMwMCUzQjAlMkM0MDAlM0IwJTJDNTAwJTNCMCUyQzYwMCUzQjAlMkM3MDAlM0IwJTJDODAwJTNCMCUyQzkwMCUzQjElMkMxMDAlM0IxJTJDMjAwJTNCMSUyQzMwMCUzQjElMkM0MDAlM0IxJTJDNTAwJTNCMSUyQzYwMCUzQjElMkM3MDAlM0IxJTJDODAwJTNCMSUyQzkwMCU3Q0NhdmVhdCUzQTQwMCUzQjUwMCUzQjYwMCUzQjcwMCZkaXNwbGF5PXN3YXBcIlxuICAgICAgICAgIHR5cGU9XCJ0ZXh0L2Nzc1wiXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxuICAgICAgICAvPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9Um9ib3RvJTNBMTAwJTJDMTAwaXRhbGljJTJDMjAwJTJDMjAwaXRhbGljJTJDMzAwJTJDMzAwaXRhbGljJTJDNDAwJTJDNDAwaXRhbGljJTJDNTAwJTJDNTAwaXRhbGljJTJDNjAwJTJDNjAwaXRhbGljJTJDNzAwJTJDNzAwaXRhbGljJTJDODAwJTJDODAwaXRhbGljJTJDOTAwJTJDOTAwaXRhbGljJTdDUm9ib3RvK1NsYWIlM0ExMDAlMkMxMDBpdGFsaWMlMkMyMDAlMkMyMDBpdGFsaWMlMkMzMDAlMkMzMDBpdGFsaWMlMkM0MDAlMkM0MDBpdGFsaWMlMkM1MDAlMkM1MDBpdGFsaWMlMkM2MDAlMkM2MDBpdGFsaWMlMkM3MDAlMkM3MDBpdGFsaWMlMkM4MDAlMkM4MDBpdGFsaWMlMkM5MDAlMkM5MDBpdGFsaWMmZGlzcGxheT1hdXRvXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgey8qIENTUyBTVFlMRVMgKi99XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImFzc2V0cy9jc3MvdmVuZG9ycy9ib290c3RyYXAuY3NzXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL2ZvbnRzL2ZvbnQtYXdlc29tZS9jc3MvZm9udC1hd2Vzb21lLmNzc1wiXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcbiAgICAgICAgICBtZWRpYT1cImFsbFwiXG4gICAgICAgIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImFzc2V0cy9jc3MvdmVuZG9ycy9tYWduaWZpYy1wb3B1cC5jc3NcIlxuICAgICAgICAgIHR5cGU9XCJ0ZXh0L2Nzc1wiXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxuICAgICAgICAvPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJhc3NldHMvY3NzL3ZlbmRvcnMvc3BsaXR0aW5nLmNzc1wiXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcbiAgICAgICAgICBtZWRpYT1cImFsbFwiXG4gICAgICAgIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImFzc2V0cy9jc3MvdmVuZG9ycy9zd2lwZXIuY3NzXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy92ZW5kb3JzL2FuaW1hdGUuY3NzXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy9zdHlsZS5jc3NcIlxuICAgICAgICAgIHR5cGU9XCJ0ZXh0L2Nzc1wiXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxuICAgICAgICAvPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJhc3NldHMvY3NzL2RhcmsuY3NzXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgey8qIEZhdmljb24gKi99XG4gICAgICAgIDxsaW5rIHJlbD1cInNob3J0Y3V0IGljb25cIiBocmVmPVwiZmF2aWNvbi5pY29cIiB0eXBlPVwiaW1hZ2UveC1pY29uXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIGhyZWY9XCJmYXZpY29uLmljb1wiIHR5cGU9XCJpbWFnZS94LWljb25cIiAvPlxuICAgICAgPC9IZWFkPlxuICAgICAge2xvYWRlciAmJiA8UHJlTG9hZGVyIC8+fVxuICAgICAgPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPlxuICAgIDwvRnJhZ21lbnQ+XG4gICk7XG59O1xuZXhwb3J0IGRlZmF1bHQgQXBwO1xuIl0sIm5hbWVzIjpbIkhlYWQiLCJGcmFnbWVudCIsInVzZUVmZmVjdCIsInVzZVN0YXRlIiwiUHJlTG9hZGVyIiwiQXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIiwibG9hZGVyIiwic2V0TG9hZGVyIiwic2V0VGltZW91dCIsInRpdGxlIiwibWV0YSIsImh0dHBFcXVpdiIsImNvbnRlbnQiLCJuYW1lIiwibGluayIsInJlbCIsImhyZWYiLCJ0eXBlIiwibWVkaWEiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
 /***/ }),
 
-/***/ 6764:
+/***/ "./src/layouts/PreLoader.js":
+/*!**********************************!*\
+  !*** ./src/layouts/PreLoader.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst PreLoader = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_1__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"preloader\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"centrize full-width\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"vertical-center\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"spinner-logo\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                src: \"assets/images/logo2.png\",\n                                alt: \"Luique - Personal Portfolio HTML Template\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\src\\\\layouts\\\\PreLoader.js\",\n                                lineNumber: 10,\n                                columnNumber: 15\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"spinner-dot\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\src\\\\layouts\\\\PreLoader.js\",\n                                lineNumber: 14,\n                                columnNumber: 15\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"spinner spinner-line\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\src\\\\layouts\\\\PreLoader.js\",\n                                lineNumber: 15,\n                                columnNumber: 15\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\src\\\\layouts\\\\PreLoader.js\",\n                        lineNumber: 9,\n                        columnNumber: 13\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\src\\\\layouts\\\\PreLoader.js\",\n                    lineNumber: 8,\n                    columnNumber: 11\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\src\\\\layouts\\\\PreLoader.js\",\n                lineNumber: 7,\n                columnNumber: 9\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\src\\\\layouts\\\\PreLoader.js\",\n            lineNumber: 6,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\ACER\\\\Desktop\\\\luique_react\\\\src\\\\layouts\\\\PreLoader.js\",\n        lineNumber: 4,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PreLoader);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvbGF5b3V0cy9QcmVMb2FkZXIuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQTtBQUFpQztBQUNqQyxNQUFNQyxZQUFZLElBQU07SUFDdEIscUJBQ0UsOERBQUNELDJDQUFRQTtrQkFFUCw0RUFBQ0U7WUFBSUMsV0FBVTtzQkFDYiw0RUFBQ0Q7Z0JBQUlDLFdBQVU7MEJBQ2IsNEVBQUNEO29CQUFJQyxXQUFVOzhCQUNiLDRFQUFDRDt3QkFBSUMsV0FBVTs7MENBQ2IsOERBQUNDO2dDQUNDQyxLQUFJO2dDQUNKQyxLQUFJOzs7Ozs7MENBRU4sOERBQUNKO2dDQUFJQyxXQUFVOzs7Ozs7MENBQ2YsOERBQUNEO2dDQUFJQyxXQUFVOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQU83QjtBQUNBLGlFQUFlRixTQUFTQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbHVpcXVlLXJlYWN0Ly4vc3JjL2xheW91dHMvUHJlTG9hZGVyLmpzP2NjNzkiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRnJhZ21lbnQgfSBmcm9tIFwicmVhY3RcIjtcclxuY29uc3QgUHJlTG9hZGVyID0gKCkgPT4ge1xyXG4gIHJldHVybiAoXHJcbiAgICA8RnJhZ21lbnQ+XHJcbiAgICAgIHsvKiBQcmVsb2FkZXIgKi99XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJlbG9hZGVyXCI+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjZW50cml6ZSBmdWxsLXdpZHRoXCI+XHJcbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInZlcnRpY2FsLWNlbnRlclwiPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNwaW5uZXItbG9nb1wiPlxyXG4gICAgICAgICAgICAgIDxpbWdcclxuICAgICAgICAgICAgICAgIHNyYz1cImFzc2V0cy9pbWFnZXMvbG9nbzIucG5nXCJcclxuICAgICAgICAgICAgICAgIGFsdD1cIkx1aXF1ZSAtIFBlcnNvbmFsIFBvcnRmb2xpbyBIVE1MIFRlbXBsYXRlXCJcclxuICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3Bpbm5lci1kb3RcIiAvPlxyXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3Bpbm5lciBzcGlubmVyLWxpbmVcIiAvPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICA8L2Rpdj5cclxuICAgIDwvRnJhZ21lbnQ+XHJcbiAgKTtcclxufTtcclxuZXhwb3J0IGRlZmF1bHQgUHJlTG9hZGVyO1xyXG4iXSwibmFtZXMiOlsiRnJhZ21lbnQiLCJQcmVMb2FkZXIiLCJkaXYiLCJjbGFzc05hbWUiLCJpbWciLCJzcmMiLCJhbHQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/layouts/PreLoader.js\n");
+
+/***/ }),
+
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 6689:
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -197,11 +66,14 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-runtime");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -212,7 +84,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(9746));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();
