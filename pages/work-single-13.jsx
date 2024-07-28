@@ -20,15 +20,8 @@ const WorkSingle = () => {
               data-splitting="words"
               data-animate="active"
             >
-              <span>Leno.</span>
+              <span>Pizza.</span>
             </h1>
-            <div
-              className="m-subtitle splitting-text-anim-1 scroll-animate"
-              data-splitting="words"
-              data-animate="active"
-            >
-              <span>Branding, Photography</span>
-            </div>
           </div>
         </div>
         {/* Details */}
@@ -50,12 +43,6 @@ const WorkSingle = () => {
                         React, react router, redux, redux tooolkit, tailwind
                         css.
                       </span>
-                    </strong>
-                  </div>
-                  <div className="details-label">
-                    <span>Categories:</span>
-                    <strong>
-                      <span>Photography, Branding</span>
                     </strong>
                   </div>
                 </div>

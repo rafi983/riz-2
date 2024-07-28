@@ -22,13 +22,6 @@ const WorkSingle = () => {
             >
               <span>Comfy Sloth</span>
             </h1>
-            <div
-              className="m-subtitle splitting-text-anim-1 scroll-animate"
-              data-splitting="words"
-              data-animate="active"
-            >
-              <span>Branding, Photography</span>
-            </div>
           </div>
         </div>
         {/* Details */}
@@ -47,12 +40,6 @@ const WorkSingle = () => {
                     <span>Technology:</span>
                     <strong>
                       <span>React, React Router.</span>
-                    </strong>
-                  </div>
-                  <div className="details-label">
-                    <span>Categories:</span>
-                    <strong>
-                      <span>Photography, Branding</span>
                     </strong>
                   </div>
                 </div>

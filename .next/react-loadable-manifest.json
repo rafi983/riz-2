@@ -5,22 +5,28 @@
       "static/chunks/src_components_PortfolioIsotope_js.js"
     ]
   },
-  "work-single-4.jsx -> ../src/components/WorkSingleISotope4": {
-    "id": "work-single-4.jsx -> ../src/components/WorkSingleISotope4",
+  "work-single-13.jsx -> ../src/components/WorkSingleISotope13": {
+    "id": "work-single-13.jsx -> ../src/components/WorkSingleISotope13",
     "files": [
-      "static/chunks/src_components_WorkSingleISotope4_js.js"
+      "static/chunks/src_components_WorkSingleISotope13_js.js"
     ]
   },
-  "work-single-5.jsx -> ../src/components/WorkSingleISotope5": {
-    "id": "work-single-5.jsx -> ../src/components/WorkSingleISotope5",
+  "work-single-14.jsx -> ../src/components/WorkSingleISotope14": {
+    "id": "work-single-14.jsx -> ../src/components/WorkSingleISotope14",
     "files": [
-      "static/chunks/src_components_WorkSingleISotope5_js.js"
+      "static/chunks/src_components_WorkSingleISotope14_js.js"
     ]
   },
-  "work-single-6.jsx -> ../src/components/WorkSingleISotope6": {
-    "id": "work-single-6.jsx -> ../src/components/WorkSingleISotope6",
+  "work-single-15.jsx -> ../src/components/WorkSingleISotope15": {
+    "id": "work-single-15.jsx -> ../src/components/WorkSingleISotope15",
     "files": [
-      "static/chunks/src_components_WorkSingleISotope6_js.js"
+      "static/chunks/src_components_WorkSingleISotope15_js.js"
+    ]
+  },
+  "work-single-16.jsx -> ../src/components/WorkSingleISotope16": {
+    "id": "work-single-16.jsx -> ../src/components/WorkSingleISotope16",
+    "files": [
+      "static/chunks/src_components_WorkSingleISotope16_js.js"
     ]
   }
 }

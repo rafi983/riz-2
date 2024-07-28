@@ -2,8 +2,9 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/work-single-4": "pages/work-single-4.js",
-  "/work-single-5": "pages/work-single-5.js",
-  "/work-single-6": "pages/work-single-6.js",
+  "/work-single-14": "pages/work-single-14.js",
+  "/work-single-13": "pages/work-single-13.js",
+  "/work-single-15": "pages/work-single-15.js",
+  "/work-single-16": "pages/work-single-16.js",
   "/": "pages/index.js"
 }
