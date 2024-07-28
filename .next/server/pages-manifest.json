@@ -1,6 +1,25 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.html",
+  "/work-single-10": "pages/work-single-10.html",
+  "/work-single-11": "pages/work-single-11.html",
+  "/work-single-12": "pages/work-single-12.html",
+  "/work-single-13": "pages/work-single-13.html",
+  "/work-single-14": "pages/work-single-14.html",
+  "/work-single-15": "pages/work-single-15.html",
+  "/work-single-16": "pages/work-single-16.html",
+  "/work-single-2": "pages/work-single-2.html",
+  "/work-single-3": "pages/work-single-3.html",
+  "/work-single-4": "pages/work-single-4.html",
+  "/work-single-5": "pages/work-single-5.html",
+  "/work-single-6": "pages/work-single-6.html",
+  "/work-single-7": "pages/work-single-7.html",
+  "/work-single-8": "pages/work-single-8.html",
+  "/works-list": "pages/works-list.html",
+  "/work-single-9": "pages/work-single-9.html",
+  "/works": "pages/works.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
